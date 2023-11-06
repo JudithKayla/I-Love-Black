@@ -1,0 +1,44 @@
+.home-page {
+  padding: 0 3rem;
+}
+
+.heading {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.heading-text {
+  margin-top: auto;
+}
+
+.heading h1 {
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.cpm-logo {
+  height: 150px;
+  margin-right: 5%;
+}
+
+.job-title {
+  margin: 20px 0px;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.description {
+  width: 60%;
+  margin-top: 30px;
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Fira Mono", monospace;
+}
+
+.home-page-btns {
+  margin-top: 50px;
+  display: flex;
+  gap: 2rem;
+}

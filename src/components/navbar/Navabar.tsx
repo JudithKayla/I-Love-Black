@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import "./Navbar.css";
 import { Menu, X } from "lucide-react";
 
@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <header>
       <div className="logo">
-        <img src="/public/assets/sparkles.png" />
+        <img src="/assets/sparkles.png" />
         <h3>JUDITH CHUKWUKA</h3>
       </div>
       <nav ref={navRef}>

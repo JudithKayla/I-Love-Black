@@ -1,0 +1,29 @@
+.positive {
+  height: 60px;
+  border: 2px solid;
+  background-color: #fff;
+  box-shadow: 4px 4px 0 0 #000;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.positive:hover {
+  color: #fff;
+  background-color: #000;
+  box-shadow: none;
+}
+
+.negative {
+  height: 60px;
+  color: #fff;
+  background-color: #000;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.negative:hover {
+  border: 2px solid;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 4px 4px 0 0 #000;
+}
