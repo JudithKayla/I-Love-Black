@@ -1,0 +1,64 @@
+.form-div {
+  margin: 0px auto;
+  padding: 0px 30%;
+}
+
+.name-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0px;
+}
+
+.input-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  border: 2px solid;
+  height: 60px;
+  width: 100%;
+  background-color: #d6dbd4;
+  font-family: "Fira Mono", monospace;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.input-container textarea {
+  border: 2px solid;
+  background-color: #d6dbd4;
+  font-family: "Fira Mono", monospace;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.name-input input {
+  width: 280px;
+}
+
+.name-input .input-container {
+  margin: 5px 0px;
+}
+
+.submitted-container {
+  width: 40%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.submitted-container img {
+  height: 300px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.submitted-text {
+  font-family: "Fira Mono", monospace;
+  font-weight: 600;
+  font-size: 30px;
+}

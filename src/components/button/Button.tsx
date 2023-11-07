@@ -2,13 +2,21 @@ import "./Button.css";
 
 interface ButtonProps {
   style?: object;
-  text: string;
+  text: string | React.ReactElement;
   variant: string;
+  type?: "button" | "submit" | "reset" | undefined;
+  handleClick?: () => void;
 }
 
-export default function Button({ style, text, variant }: ButtonProps) {
+export default function Button({
+  style,
+  text,
+  variant,
+  type,
+  handleClick
+}: ButtonProps) {
   return (
-    <button className={variant} style={style}>
+    <button type={type} className={variant} style={style} onClick={handleClick}>
       {text}
     </button>
   );
