@@ -3,10 +3,10 @@ import "./Navbar.css";
 import { Menu, X } from "lucide-react";
 
 function Navbar() {
-  const navRef = useRef();
+  const navRef = useRef<HTMLElement | null>(null);
 
   const showNavbar = () => {
-    navRef.current.classList.toggle("responsive_nav");
+    navRef.current?.classList.toggle("responsive_nav");
   };
 
   return (
