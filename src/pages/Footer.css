@@ -1,0 +1,32 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 150px;
+  height: 180px;
+  background-color: black;
+  font-family: "Fira Mono", monospace;
+}
+
+.footer-container p,
+.footer-container a {
+  margin: 20px 0px;
+}
+
+.footer-container a {
+  text-decoration: underline;
+}
+
+.footer-container a:hover {
+  cursor: pointer;
+  background-image: linear-gradient(135deg, cyan, blue, purple, pink);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.footer-text {
+  margin-bottom: 15px;
+}
