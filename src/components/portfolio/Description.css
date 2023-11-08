@@ -34,6 +34,20 @@
   margin-top: 25px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .item-description {
+    margin: 0px;
+  }
+
+  .item-description hr {
+    width: 80%;
+  }
+
+  .item-description h3 {
+    font-size: 25px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .item-description {
     margin: 0px;

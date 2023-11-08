@@ -6,6 +6,12 @@
   font-size: 18px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .contact-page-info {
+    padding: 0px 1.5rem;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .contact-page-info {
     padding: 0px 1.5rem;
