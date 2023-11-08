@@ -16,10 +16,18 @@ function Navbar() {
         <h3>JUDITH CHUKWUKA</h3>
       </div>
       <nav ref={navRef}>
-        <a href="/#">Home</a>
-        <a href="/#">Resume</a>
-        <a href="/#">Portfolio</a>
-        <a href="/#">Contact</a>
+        <a href="/#home" onClick={showNavbar}>
+          Home
+        </a>
+        <a href="/#" onClick={showNavbar}>
+          Resume
+        </a>
+        <a href="/#portfolio" onClick={showNavbar}>
+          Portfolio
+        </a>
+        <a href="/#contact" onClick={showNavbar}>
+          Contact
+        </a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <X />
         </button>

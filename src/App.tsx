@@ -1,3 +1,4 @@
+import "./Index.css";
 import Divider from "./components/divider/Divider";
 import NavBar from "./components/navbar/Navabar";
 import ContactPage from "./pages/ContactPage";

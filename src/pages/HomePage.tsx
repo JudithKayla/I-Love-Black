@@ -3,7 +3,7 @@ import "./HomePage.css";
 
 export default function HomePage() {
   return (
-    <div className="home-page">
+    <div id="home" className="home-page">
       <div className="heading">
         <div className="heading-text">
           <h1>JUDITH</h1>
