@@ -5,3 +5,10 @@
   font-weight: 400;
   font-size: 18px;
 }
+
+@media screen and (max-width: 480px) {
+  .contact-page-info {
+    padding: 0px 1.5rem;
+    font-size: 15px;
+  }
+}

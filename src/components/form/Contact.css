@@ -63,3 +63,39 @@
   font-weight: 600;
   font-size: 30px;
 }
+
+@media screen and (max-width: 480px) {
+  .form-div {
+    padding: 0px 1.5rem;
+  }
+
+  .input-container label {
+    font-size: 14px;
+  }
+
+  .input-container input {
+    border-radius: 0px;
+    font-size: 16px;
+  }
+
+  .input-container textarea {
+    border-radius: 0px;
+  }
+
+  .submitted-container {
+    width: 100%;
+    padding: 0px 1.5rem;
+  }
+
+  .submitted-container img {
+    height: 250px;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .submitted-text {
+    font-family: "Fira Mono", monospace;
+    font-weight: 600;
+    font-size: 23px;
+  }
+}

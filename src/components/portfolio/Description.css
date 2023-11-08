@@ -33,3 +33,21 @@
 .item-desc-text {
   margin-top: 25px;
 }
+
+@media screen and (max-width: 480px) {
+  .item-description {
+    margin: 0px;
+  }
+
+  .item-description hr {
+    width: 80%;
+  }
+
+  .item-description h3 {
+    font-size: 28px;
+  }
+
+  .item-description p {
+    font-size: 15px;
+  }
+}

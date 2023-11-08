@@ -42,3 +42,27 @@
   display: flex;
   gap: 2rem;
 }
+
+@media screen and (max-width: 480px) {
+  .home-page {
+    padding: 0 1.5rem;
+  }
+
+  .heading h1 {
+    font-size: 35px;
+  }
+
+  .cpm-logo {
+    height: 90px;
+    margin-right: 20px;
+  }
+
+  .job-title {
+    font-size: 25px;
+  }
+
+  .description {
+    width: 100%;
+    font-size: 15px;
+  }
+}

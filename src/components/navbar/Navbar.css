@@ -114,3 +114,9 @@ img {
     font-size: 1rem;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .logo h3 {
+    font-size: 16px;
+  }
+}

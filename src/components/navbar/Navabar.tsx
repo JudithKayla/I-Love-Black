@@ -29,11 +29,11 @@ function Navbar() {
           Contact
         </a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-          <X />
+          <X color="black" />
         </button>
       </nav>
       <button className="nav-btn" onClick={showNavbar}>
-        <Menu />
+        <Menu color="black" />
       </button>
     </header>
   );
