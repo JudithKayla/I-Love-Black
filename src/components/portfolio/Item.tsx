@@ -3,10 +3,11 @@ import Button from "../button/Button";
 
 interface ItemProps {
   imgUrl: string;
+  link: string;
   description: React.ReactElement;
 }
 
-export default function Item({ imgUrl, description }: ItemProps) {
+export default function Item({ imgUrl, link, description }: ItemProps) {
   return (
     <div className="portfolio-item">
       <div className="item-tile">
@@ -17,6 +18,7 @@ export default function Item({ imgUrl, description }: ItemProps) {
         <Button
           text="View Live"
           variant="negative"
+          link={link}
           style={{ width: "100%", marginTop: "30px" }}
         />
       </div>

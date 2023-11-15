@@ -6,9 +6,24 @@
   font-size: 18px;
 }
 
+.linkedin {
+  text-decoration: underline;
+  color: rgb(99, 99, 238);
+}
+
+.linkedin:hover {
+  background-image: linear-gradient(135deg, cyan, blue, purple, pink);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 @media only screen and (max-width: 1024px) {
   .contact-page-info {
     padding: 0px 1.5rem;
+    font-size: 15px;
+    line-height: 21px;
+    font-family: "Fira Mono", monospace;
   }
 }
 

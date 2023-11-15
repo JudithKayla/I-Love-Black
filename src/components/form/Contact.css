@@ -44,6 +44,7 @@
 
 .name-input .input-container {
   margin: 5px 0px;
+  width: 100%;
 }
 
 .submitted-container {

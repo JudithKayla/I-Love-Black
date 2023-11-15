@@ -9,9 +9,11 @@ export default function PortfolioPage() {
       {portfoliioData.map((data, index) => (
         <Item
           key={index}
+          link={data.link}
           imgUrl={data.imgUrl}
           description={
             <Description
+              product={data.product}
               title={data.title}
               company={data.company}
               location={data.location}

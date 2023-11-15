@@ -11,7 +11,7 @@
 
 .item-description hr {
   height: 0px;
-  width: 60%;
+  width: 70%;
   border: 1.5px solid;
   margin: 20px 0px;
 }
@@ -32,6 +32,21 @@
 
 .item-desc-text {
   margin-top: 25px;
+  line-height: 25px;
+  white-space: pre-line;
+}
+
+.read-more {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(99, 99, 238);
+}
+
+.read-more:hover {
+  background-image: linear-gradient(135deg, cyan, blue, purple, pink);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -45,6 +60,14 @@
 
   .item-description h3 {
     font-size: 25px;
+  }
+
+  .item-description p {
+    font-size: 15px;
+  }
+
+  .portfolio-description-item p {
+    font-weight: 600;
   }
 }
 

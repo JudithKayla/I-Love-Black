@@ -38,6 +38,10 @@
   box-shadow: 4px 4px 0 0 #000;
 }
 
+.btn-link {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 480px) {
   .positive,
   .negative,

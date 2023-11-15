@@ -16,11 +16,19 @@ function Navbar() {
         <h3>JUDITH CHUKWUKA</h3>
       </div>
       <nav ref={navRef}>
-        <a href="/#home" onClick={showNavbar}>
-          Home
-        </a>
-        <a href="/#" onClick={showNavbar}>
+        <a
+          href="https://drive.google.com/file/d/1Fo5IEBu5EiiDHvJKS_BvRm9FQb4_uk5k/view?usp=drive_link"
+          target="_"
+          onClick={showNavbar}
+        >
           Resume
+        </a>
+        <a
+          href="https://www.linkedin.com/in/judith-chukwuka"
+          target="_"
+          onClick={showNavbar}
+        >
+          Linkedin
         </a>
         <a href="/#portfolio" onClick={showNavbar}>
           Portfolio

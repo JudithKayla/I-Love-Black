@@ -17,8 +17,8 @@
 
 .footer-container a {
   text-decoration: underline;
+  color: #fff;
 }
-
 .footer-container a:hover {
   cursor: pointer;
   background-image: linear-gradient(135deg, cyan, blue, purple, pink);

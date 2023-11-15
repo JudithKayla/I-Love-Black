@@ -13,24 +13,31 @@ export default function HomePage() {
       </div>
       <h1 className="job-title">Certified Product Manager (AIPMM)</h1>
       <p className="description">
-        Lorem ipsum dolor sit amet, conse ctetur djsjk skk adipiscing elit, sed
-        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat ut labore et dolore magna aliqua ut. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat ut labore et dolore magna aliqua ut.
+        Experienced and results-driven Certified Product Manager with a strong
+        background in SAAS, B2B/B2C and Startups environments. In my 2+ years as
+        a product manager, I have consistently leveraged my expertise to drive
+        the development and delivery of innovative products that meet and exceed
+        customer expectations. I thrive in cross-functional teams, working
+        closely with stakeholders, engineering, design, and marketing teams to
+        ensure seamless product development and successful launches.
       </p>
       <div className="home-page-btns">
-        <Button
-          text="View my certificates"
-          variant="positive"
-          style={{ width: "350px" }}
-        />
-        <Button
-          text="View my resume"
-          variant="negative"
-          style={{ width: "350px" }}
-        />
+        <div style={{ width: "350px" }}>
+          <Button
+            text="View my certificates"
+            variant="positive"
+            link="https://certificates.aipmm.com/3228916f-bd41-42c1-9ce0-9439f8d9318a#gs.0ylz8s"
+            style={{ width: "100%" }}
+          />
+        </div>
+        <div style={{ width: "350px" }}>
+          <Button
+            text="View my resume"
+            variant="negative"
+            link="https://drive.google.com/file/d/1Fo5IEBu5EiiDHvJKS_BvRm9FQb4_uk5k/view?usp=drive_link"
+            style={{ width: "100%" }}
+          />
+        </div>
       </div>
     </div>
   );
