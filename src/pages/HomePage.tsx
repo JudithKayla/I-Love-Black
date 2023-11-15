@@ -34,7 +34,7 @@ export default function HomePage() {
           <Button
             text="View my resume"
             variant="negative"
-            link="https://drive.google.com/file/d/1Fo5IEBu5EiiDHvJKS_BvRm9FQb4_uk5k/view?usp=drive_link"
+            link="https://drive.google.com/file/d/1_R_7NvO517Q2s_WJ2OAo4Rams1poIuBp/view?usp=drive_link"
             style={{ width: "100%" }}
           />
         </div>
