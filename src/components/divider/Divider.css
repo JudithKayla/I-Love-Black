@@ -5,7 +5,7 @@
 
 .divider-bar {
   height: 0px;
-  width: 40%;
+  width: 100%;
   border: 1.5px solid;
   margin: auto;
 }
@@ -33,7 +33,7 @@
   }
 
   .divider-bar {
-    width: 80%;
+    width: 40%;
   }
 
   .divider-text {

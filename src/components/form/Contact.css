@@ -67,7 +67,15 @@
 
 @media only screen and (max-width: 1024px) {
   .form-div {
-    padding: 0px 4rem;
+    padding: 0px 22%;
+  }
+
+  .input-container input {
+    border-radius: 0px;
+  }
+
+  .input-container textarea {
+    border-radius: 0px;
   }
 }
 

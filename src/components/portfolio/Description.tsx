@@ -29,7 +29,7 @@ export default function Description({
     const handleResize = () => {
       const screenWidth = window.innerWidth;
 
-      if (screenWidth < 600) {
+      if (screenWidth < 1000) {
         setSliceValue(300);
       } else {
         setSliceValue(525);

@@ -71,6 +71,13 @@
   }
 }
 
+@media screen and (orientation: landscape) and (min-device-width: 319px) and (max-device-width: 480px) {
+  .item-desc-text {
+    font-size: 10px;
+    line-height: 18px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .item-description {
     margin: 0px;

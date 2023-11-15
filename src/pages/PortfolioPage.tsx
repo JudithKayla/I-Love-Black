@@ -6,7 +6,7 @@ import "./PortfolioPage.css";
 export default function PortfolioPage() {
   return (
     <div className="portfolio-page">
-      {portfoliioData.map((data, index) => (
+      {portfoliioData().map((data, index) => (
         <Item
           key={index}
           link={data.link}
