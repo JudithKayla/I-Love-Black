@@ -6,7 +6,7 @@ export default function ContactPage() {
     <div className="contact-page">
       <p className="contact-page-info">
         {
-          "Are you convinced enough and ready to elevate your product game? Let's turn ideas into innovation! Contact me before your competitors do! You can also reach me on "
+          "Are you convinced enough and ready to elevate your product game? Let's turn ideas into innovation! You can also reach me on "
         }
         <a
           href="https://www.linkedin.com/in/judith-chukwuka"
