@@ -38,7 +38,7 @@ const Navbar = () => {
         _hover={{ textDecoration: "none", color: "orange" }}
         display={{ base: "none", md: "inline", lg: "inline" }}
       >
-        Judith M.C
+        Kayla J.C
       </Link>
       <Link
         ml="30px"
