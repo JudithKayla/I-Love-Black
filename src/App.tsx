@@ -1,23 +1,19 @@
-import "./Index.css";
-import Divider from "./components/divider/Divider";
-import NavBar from "./components/navbar/Navabar";
-import ContactPage from "./pages/ContactPage";
-import Footer from "./pages/Footer";
-import HomePage from "./pages/HomePage";
-import PortfolioPage from "./pages/PortfolioPage";
+import { Route, Routes } from "react-router-dom";
+import PageLayout from "./layout/PageLayout";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+import Projects from "./pages/Projects";
 
-function App() {
+export const App = () => {
   return (
-    <>
-      <NavBar />
-      <HomePage />
-      <Divider text="Product Portfolio" />
-      <PortfolioPage />
-      <Divider text="Contact Me" />
-      <ContactPage />
-      <Footer />
-    </>
+    <PageLayout>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="portfolio" element={<Projects />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </PageLayout>
   );
-}
-
-export default App;
+};
