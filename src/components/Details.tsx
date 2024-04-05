@@ -26,7 +26,7 @@ const Details = () => {
             fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
             fontWeight="bold"
           >
-            I'm Judith
+            I'm Kayla
           </Text>
         </Stack>
         <Text
