@@ -13,9 +13,23 @@ const Description = ({ text }: { text: string }) => {
 
   return (
     <Box whiteSpace="pre-line">
-      {firstHalf}
+      <Text
+        color="gray"
+        fontFamily="sans-serif"
+        fontWeight="thin"
+        lineHeight="1.8"
+        fontSize={{ base: "sm", md: "md", lg: "md" }}
+      >
+        {firstHalf}</Text>
       <Collapse in={showMore} animateOpacity>
-        {secondHalf}
+        <Text
+          color="gray"
+          fontFamily="sans-serif"
+          fontWeight="thin"
+          lineHeight="1.8"
+          fontSize={{ base: "sm", md: "md", lg: "md" }}
+        >
+          {secondHalf}</Text>
       </Collapse>
       <Button
         variant="ghost"
