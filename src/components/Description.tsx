@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Box, Button, Collapse, useColorMode } from "@chakra-ui/react";
+import { Box, Text, Button, Collapse, useColorMode } from "@chakra-ui/react";
 
 const Description = ({ text }: { text: string }) => {
   const { colorMode } = useColorMode();
@@ -12,24 +12,14 @@ const Description = ({ text }: { text: string }) => {
   };
 
   return (
-    <Box whiteSpace="pre-line">
-      <Text
-        color="gray"
-        fontFamily="sans-serif"
-        fontWeight="thin"
-        lineHeight="1.8"
-        fontSize={{ base: "sm", md: "md", lg: "md" }}
-      >
-        {firstHalf}</Text>
+    <Box as={Text} whiteSpace="pre-line" color="gray"
+      fontFamily="sans-serif"
+      fontWeight="thin"
+      lineHeight="1.8"
+      fontSize={{ base: "sm", md: "md", lg: "md" }}>
+      {firstHalf}
       <Collapse in={showMore} animateOpacity>
-        <Text
-          color="gray"
-          fontFamily="sans-serif"
-          fontWeight="thin"
-          lineHeight="1.8"
-          fontSize={{ base: "sm", md: "md", lg: "md" }}
-        >
-          {secondHalf}</Text>
+        {secondHalf}
       </Collapse>
       <Button
         variant="ghost"
