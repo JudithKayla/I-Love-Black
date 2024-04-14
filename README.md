@@ -6,7 +6,7 @@ This repository contains a simple React application built with Vite and TypeScri
 
 1. **Clone the repository:**
 
-   `git clone https://github.com/JudithKayla/kaylajc.com`
+   `git clone https://github.com/JudithKayla/judithchukwuka.com`
 
 2. **Navigate to the project directory:**
 
