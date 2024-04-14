@@ -2,7 +2,7 @@ import {
   Box,
   Button,
   Collapse,
-  Flex,
+  Grid,
   HStack,
   Image,
   Link,
@@ -98,7 +98,7 @@ const Project = ({
         </Box>
       </Box>
       <Box>
-        <Flex flexWrap="wrap" gap={3}>
+      <Grid templateColumns="repeat(2, 1fr)" gap={3}>
           {job.map((item, index) => (
             <Tag
               key={index}
@@ -115,7 +115,7 @@ const Project = ({
               </TagLabel>
             </Tag>
           ))}
-        </Flex>
+        </Grid>
       </Box>
       <Box>
         <Text
