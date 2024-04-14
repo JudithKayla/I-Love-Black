@@ -52,7 +52,7 @@ export const projects: {
       },
       {
         icon: <MapPin size="18px" />,
-        detail: "Nottingham, United Kingdom"
+        detail: "Nottingham, UK"
       },
       {
         icon: <Hourglass size="18px" />,
